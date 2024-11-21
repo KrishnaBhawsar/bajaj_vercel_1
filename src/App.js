@@ -28,6 +28,7 @@ const App = () => {
 
     } catch (err) {
       // Handle errors (e.g., invalid JSON or failed API call)
+      console.log("hello");
       setError('Invalid JSON or request failed.');
     }
   };
